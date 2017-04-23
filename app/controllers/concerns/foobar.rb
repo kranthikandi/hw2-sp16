@@ -1,9 +1,9 @@
 class Foobar
   def initialize(value)
-    @str1 = value
+    @string1 = value
   end
 
-  def bar(str2, hash_value)
-    "#{str2}#{@str1}#{hash_value[:sat]}"
+  def bar(string2, h_value)
+    "#{string2}#{@string1}#{h_value[:sat]}"
   end
 end
